@@ -1,0 +1,40 @@
+.sidebar__menuClicked {
+    width: 22.375rem;
+    height: 4.25rem;
+    background: linear-gradient(90deg, #5F1881 0.12%, rgba(225, 89, 249, 0.00) 94.44%);
+}
+
+.option {
+    margin-bottom: 2.5rem;
+    position: relative;
+}
+
+.sidebar__menuHome, .sidebar__menuFood, .sidebar__menuGeneral, .sidebar__menuDrink, .sidebar__menuTool, .sidebar__menuHealth {
+    width: 22.375rem;
+    height: 4.25rem;
+    cursor: pointer;
+}
+
+
+
+.sidebar__menuRectangle {
+    width: 0.5rem;
+    height: 4.25rem;
+    background: #E159F9;
+}
+
+.sidebar__menuHomeImg {
+    position: absolute;
+    left: 4.5rem;
+    top: 1rem;
+}
+
+.sidebar__menuHomeText {
+    position: absolute;
+    left: 9.5rem;
+    top: 1.5rem;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 500;
+}

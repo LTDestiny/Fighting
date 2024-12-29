@@ -1,0 +1,14 @@
+.listItem {
+    display: grid;
+    position: absolute;
+    left: 28rem;
+    top: 12.94rem;
+    width: 86.375rem;
+    min-height: 47.75rem;
+    border-radius: 0.625rem;
+    background: linear-gradient(180deg, #422961 0%, rgba(63, 20, 118, 0.00) 100%);
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    padding-left: 3rem;
+}
